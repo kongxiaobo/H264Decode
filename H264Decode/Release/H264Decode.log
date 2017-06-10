@@ -1,0 +1,43 @@
+﻿生成启动时间为 2017/6/10 星期六 8:37:44。
+     1>项目“G:\海思解码方案\H264Decode\H264Decode\H264Decode.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\H264Decode.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\H264Decode.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\H264Decode.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DisplayParaDlg.cpp H264Decode.cpp H264DecodeDlg.cpp WRITEAVI.CPP
+         DisplayParaDlg.cpp
+         H264Decode.cpp
+         H264DecodeDlg.cpp
+     1>H264DecodeDlg.cpp(413): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(533) : 参见“wcstombs”的声明
+     1>H264DecodeDlg.cpp(415): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>H264DecodeDlg.cpp(470): warning C4018: “<”: 有符号/无符号不匹配
+     1>H264DecodeDlg.cpp(408): warning C4101: “numNalUnits”: 未引用的局部变量
+         WRITEAVI.CPP
+     1>WRITEAVI.CPP(100): warning C4101: “lpBits”: 未引用的局部变量
+     1>WRITEAVI.CPP(95): warning C4101: “hdc”: 未引用的局部变量
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\H264Decode.res" H264Decode.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\海思解码方案\H264Decode\Release\H264Decode.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"G:\H.264解码\H264Decode\H264Decode" h264_frm_dec_web.lib Sinc_Interp.lib /NODEFAULTLIB:libc.lib /MANIFEST /ManifestFile:"Release\H264Decode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\海思解码方案\H264Decode\Release\H264Decode.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\海思解码方案\H264Decode\Release\H264Decode.lib" /MACHINE:X86 Release\H264Decode.res
+         Release\DisplayParaDlg.obj
+         Release\H264Decode.obj
+         Release\H264DecodeDlg.obj
+         Release\stdafx.obj
+         Release\WRITEAVI.obj
+         h264_frm_dec_web.lib
+         hi_h264dec_w.lib
+         H264Decode.vcxproj -> G:\海思解码方案\H264Decode\Release\H264Decode.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\海思解码方案\H264Decode\Release\H264Decode.exe;#1" /manifest Release\H264Decode.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\H264Decode.unsuccessfulbuild”。
+         正在对“Release\H264Decode.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\海思解码方案\H264Decode\H264Decode\H264Decode.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.00
